@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO="jarcos-al/proxmox-audio-prep"
+REPO="jarcos-al/airplayer-dependecies-installer"
 
 # Detecta rama por defecto (main/master) sin depender de herramientas raras
 detect_branch() {
