@@ -3,6 +3,7 @@ set -euo pipefail
 
 REPO="jarcos-al/airplayer-dependecies-installer"
 
+
 # Detecta rama por defecto (main/master) sin depender de herramientas raras
 detect_branch() {
   if curl -fsSL "https://raw.githubusercontent.com/${REPO}/main/proxmox-audio-prep.sh" >/dev/null 2>&1; then
